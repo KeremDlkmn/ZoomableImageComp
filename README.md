@@ -17,3 +17,14 @@ Allows you to create zoomable images. Jetpack does not come with a ***zoom*** fe
 - **isRotation:** Rotation state of the photo
 - **isZoomable:** Zoomable state of the photo
 - **scrollState:** Scroll state of the photo
+
+## Simple Example
+It will be enough to give a bitmap type image. Other features have values assigned by default.
+
+```kotlin
+ZoomableImageComp(
+  bitmap = image_item
+)
+```
+
+> **image_item:** It must be of type ImageBitmap.
